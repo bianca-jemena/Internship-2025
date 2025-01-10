@@ -55,6 +55,48 @@ with col2:
     - Infrastructure: Usually consists of medium-voltage (e.g., 4 kV to 35 kV) and low-voltage lines (e.g., 120 V or 240 V for homes), often on street poles or underground in urban settings.
     """)
 
+col1, col2, col3 = st.columns([0.1, 50, 0.1])  # Proportions for centering the image
+
+with col2:
+    st.image(r"C:\Users\eylim\OneDrive - onlineeportal\Documents\GitHub\Internship-2025\assets\supplychain.png", width=1000)
+
+st.header("What does Jemena do?")
+st.write(
+    """
+    Distribution is Jemena’s position in the supply chain (a **DNSP** or Distribution Network Service Provider). In Victoria, Jemena covers the electricity needs of a variety of different types of customers. 
+    This includes residential and industrial areas, small businesses and even Melbourne International Airport. To do so, Jemena owns and operates important infrastructure such as these terminal stations, transmission lines and many different types of transformers. Distribution involves carrying electricity locally from terminal stations to businesses and homes. This electricity is transported via overhead power lines, and is stepped down again via smaller transformers before being sent into customers’ homes as the commonly used 230V standard.
+    """
+)
+st.write(
+    """
+    As a distribution network service provider (DNSP), Jemena is responsible for building, maintaining and operating its distribution network. To ensure the quality of service, Jemena is responsible for following the:
+    - [National Electricity Rules](https://www.aemc.gov.au/regulation/energy-rules/national-electricity-rules)
+    - [Victorian Electricity System Code](https://www.esc.vic.gov.au/sites/default/files/documents/3d1fc9fd-18e0-4e10-a87a-e68ba2151a1a.pdf)
+    - [Victoria Electricity Distribution Code](https://www.esc.vic.gov.au/electricity-and-gas/codes-guidelines-and-policies/electricity-distribution-code)
+    - [JEN's Electricity Distribution Licence](https://www.esc.vic.gov.au/sites/default/files/documents/323f2265-cbe0-4664-be1d-326d2e8f920f.pdf)
+    """ 
+)
+st.write(
+    """
+    Additionally, as a distribution network, Jemena is required to meet reliability standards:
+
+    - Network limitations (thermal, voltage and fault level)
+    - Thermal: asset utilisation must be managed in order to ensure that there are no overloads (potential asset failures or electrical safety clearance violations)
+    - Voltage: Excessively high or low voltages result in accelerated loss of life in customer appliances or other safety issues
+    - Fault level: prevent switchgear replacement, conductor and cable sizes must be adequately selected to withstand fault level requirements
+    - Redundancy in the case of Emergency or maintenance.
+    """
+)
+st.write(
+    """
+    Combined, these reliability and quality standards ensure that the grid is resilient enough to manage the load and support current and potentially forecasted customer demands
+    \nAs Australia's power landscape is changing, Jemena has an increasing responsibility for recognising and adapting to changes to electricity networks from:
+    - Customers generating their own power (PV installations)
+    - Injection of renewables into the grid (wind and solar farms)
+    - Accelerating development of power hungry data centres
+
+    """
+)
 # ---------------------------
 # Interactive Quiz / Elements
 # ---------------------------
